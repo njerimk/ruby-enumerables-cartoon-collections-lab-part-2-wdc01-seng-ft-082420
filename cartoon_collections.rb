@@ -45,7 +45,7 @@ def find_valid_calls(planeteer_calls)
   another_call = ["Wood!", "Wind!", "Brass!", "Enamel!", "Heart!"]
   planeteer_calls.find do |string|
    string.any?("Earth!"&& "Wind!")
-  
+  end
 end
 planeteer_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 another_call = ["Wood!", "Wind!", "Brass!", "Enamel!", "Heart!"]
