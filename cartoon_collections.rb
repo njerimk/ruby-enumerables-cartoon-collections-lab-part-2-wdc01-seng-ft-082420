@@ -44,8 +44,9 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   another_call = ["Wood!", "Wind!", "Brass!", "Enamel!", "Heart!"]
   planeteer_calls.find do |string|
-   puts string 
+   puts string[0..] 
   end
+  
 end
 planeteer_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 another_call = ["Wood!", "Wind!", "Brass!", "Enamel!", "Heart!"]
