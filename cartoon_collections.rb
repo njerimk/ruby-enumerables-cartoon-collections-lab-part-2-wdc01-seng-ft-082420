@@ -49,6 +49,6 @@ def find_valid_calls(planeteer_calls)
 end
 planeteer_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 another_call = ["Wood!", "Wind!", "Brass!", "Enamel!", "Heart!"]
-find_valid_calls(another_call)
+find_valid_calls(planeteer_calls)
 
 
